@@ -1,6 +1,6 @@
-let centro = "     Centro     ";
-let izq = "Texto al lado izquierdo     ";
-let derecho = "     Texto al lado derecho"
+let centro = "     Centro     \n";
+let izq = "Texto al lado izquierdo     \n";
+let derecho = "     Texto al lado derecho\n"
 
 console.log(izq,centro,derecho);
 // Texto al lado izquierdo         Centro          Texto al lado derecho
@@ -17,3 +17,7 @@ console.log(ejm_izq,ejm_centro,ejm_derecho);
 
 console.log(ejm_izq.length,ejm_centro.length,ejm_derecho.length);
 // 23 6 21
+
+
+console.log(centro.trimStart(),centro.trim(),centro.trimEnd());
+// Centro         Centro          Centro
